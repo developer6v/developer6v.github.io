@@ -1,0 +1,192 @@
+.profile_img {
+    height: 250px;
+    border-radius: 50%;
+    width: 250px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.profile_img:hover {
+    cursor: pointer;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_bio {
+    z-index: 1;
+    margin-top: -30px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: rgb(10, 10, 36);
+    color: rgb(200, 232, 245);
+}
+
+
+.info_bio:hover {
+    color: rgb(209, 83, 24);
+}
+
+.info_bio p {
+    line-height: 0.5;
+    font-weight: bold;
+}
+
+.div_body {
+    display: grid;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Roboto Mono", monospace;
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+
+footer {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: rgba(10, 10, 36, 0.945);
+}
+
+.item_footer {
+    color: rgb(168, 168, 168);
+    font-weight: 100;
+    font-size: 13px;
+    margin-left: 40px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.item_footer:hover {
+    text-decoration: underline;
+}
+
+
+.section {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    border-radius: 20px;
+    justify-self: center;
+    align-self: center;
+}
+
+
+.about_me {
+    margin-top: -20px;
+}
+
+header {
+    position: fixed;
+    background-color: rgba(10, 10, 36, 0.945);
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+}
+
+.item_header {
+    color: rgb(168, 168, 168);
+    font-weight: BOLD;
+    font-size: 15px;
+    margin-left: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.item_header:hover {
+    color: white;
+}
+
+
+
+.header_data {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logo {
+    width: 70px;   
+}
+
+.skill_div p {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.skill_progress {
+    overflow: hidden;
+    display: inline-block;
+    width: 250px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: rgb(202, 202, 202);
+}
+
+.skill_div {
+    width: 700px;
+}
+
+.skill_fill {
+    background-color: rgb(0, 207, 86);
+    height: 15px;
+}
+
+.skill_fill_ingles {
+    width: 70%;
+}
+
+.skill_fill_php {
+    width: 70%;
+}
+
+.skill_fill_api {
+    width: 95%;
+}
+
+.skill_fill_js {
+    width: 85%;
+}
+
+.skill_fill_cmaismais {
+    width: 75%;
+}
+
+.job_experience p {
+    line-height: 0.3;
+}
+
+.job_experience {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 70px;
+}
+
+.section h1 {
+    text-decoration: underline;
+}
